@@ -1,0 +1,174 @@
+.clearfix:before,
+.clearfix:after{
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 1070px;
+    
+    font-size: 12px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 1.6em;
+    
+    background-color: #e1efff;
+}
+
+header {
+    padding-top: 150px;
+    width: 940px;
+    margin: 0px auto;
+}
+
+hgroup {
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+hgroup h1 {
+    padding: 15px 0px;
+    margin: 0px;
+    display: inline-block;
+    padding: 16px 10px 0 0;
+    
+    font-weight: normal;
+    font-family: Georgia;
+    font-size: 32px;
+    color: #ffd800;
+}
+
+hgroup h2 {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    
+    font-family: Georgia;
+    font-size: 48px;
+    font-weight: normal;
+    color: #fff;
+}
+
+nav {
+    font-family: Georgia;
+    font-size: 13px;
+    color: #405883;
+    
+    padding: 0px 15px;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 15px 12px 15px;
+    
+    text-transform: uppercase;
+    color: #0f1f3a;
+}
+
+section {
+    padding: 20px 20px 5px 20px;
+    width: 900px;
+    margin: 0px auto;
+    border: 1px solid #fff;
+}
+
+section article {
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    background-color: #fff;
+}
+
+section article h1 {
+    font-size: 18px;
+    color: #3875cc;
+    font-weight: normal;
+    font-family: Georgia;
+    
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+}
+
+section article p {
+    color: #4c4c4c;
+    font-size: 13px;
+    line-height: 1.6em;
+    margin-bottom: 15px;
+}
+
+
+section article figure{
+    float: right;
+    border: 1px #cad0db solid;
+    padding: 15px;
+    background-color: #f1f5fb;
+    margin: 10px;
+}
+
+section article figure figcaption {
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    
+    color: #707379;
+}
+
+section article aside {
+    padding: 15px;
+    margin: 10px 0px;
+    
+    color: #858585;
+}
+
+section article aside h2 {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Georgia;
+    text-transform: uppercase;
+    
+    padding: 0px 0px 3px 0px;
+    margin: 0px;
+}
+
+footer {
+    padding: 15px;
+    width: 940px;
+    margin: 20px auto;
+    
+    text-align: right;
+}
+
+footer span {
+    padding: 15px;
+    
+    color: #fff;
+}
